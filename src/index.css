@@ -1,0 +1,12 @@
+@import "tailwindcss";
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html,body,#root{height:100%;background:#0c0c10;color:#e4e4f0;font-family:system-ui,sans-serif;-webkit-font-smoothing:antialiased;overflow:hidden}
+*{scrollbar-width:thin;scrollbar-color:#2a2a38 transparent}
+::-webkit-scrollbar{width:4px}
+::-webkit-scrollbar-thumb{background:#2a2a38;border-radius:2px}
+/* React Flow overrides */
+.react-flow__node{background:transparent;border:none;padding:0}
+.react-flow__edge-path{stroke:#3a3a50}
+.react-flow__controls-button{background:#111118!important;border-color:#2a2a38!important;color:#e4e4f0!important}
+.react-flow__controls-button:hover{background:#1c1c26!important}
+.react-flow__attribution{display:none}
